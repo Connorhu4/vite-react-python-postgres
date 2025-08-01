@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# web 目录下忽略
+/web/node_modules
+/web/dist
+/web/build
+/web/.env
+/web/.env.*
+
+# backend 目录下忽略
+/backend/__pycache__/
+/backend/.env
+/backend/.env.*
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.log
+/backend/.mypy_cache
+/backend/.pytest_cache
