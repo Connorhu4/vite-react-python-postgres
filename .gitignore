@@ -29,6 +29,10 @@ yarn-error.log*
 /web/.env
 /web/.env.*
 
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+
 # backend 目录下忽略
 /backend/__pycache__/
 /backend/.env
